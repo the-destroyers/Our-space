@@ -1,499 +1,1030 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Scoop Themes | Colupsus Landing Page Documentation">
-    <meta name="author" content="Scoop Themes">
+    <meta charset="UTF-8">
+    <title>Bondy - Multipurpose Bootstrap Landing Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <title>Bondy Responsive</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
+    <link rel="stylesheet" href="css/styles.css" title="mainStyle">
 
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
+    <script src="js/modernizr.custom.32033.js"></script>
+
+    <!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
 
-    <div id="wrapper">
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="img/logo-blue.png" class="animated fadeInDown" alt="">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="go-down">
+        <a href="#whoWeAre">
+            <i class="fa fa-angle-down fa-3x"></i>
+        </a>
+    </div>
+    <!-- Wrap all page content here -->
+    <div id="wrap" class="home">
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="index.html">
-                        <img src="img/logo.png">
+        <header class="masthead">
+            <div class="slider-container" id="slider">
+                <div class="tp-banner-container">
+                    <div class="tp-banner">
+                        <ul>
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
+
+
+
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
+                                    We Develop
+                                </div>
+                                <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
+                                    Strong .
+                                </div>
+                                <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="left" data-y="center" data-hoffset="147" data-voffset="-50" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
+                                    Beautiful .
+                                </div>
+                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-50" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
+                                    Functional
+                                </div>
+                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="0" data-voffset="25" data-speed="1000" data-start="1900" data-easing="Power4.easeOut">
+                                    <a href="#about" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
+                                </div>
+
+                            </li>
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <img src="img/samples/macbook-bl.png" class="macbook-image" alt="">
+                                </div>
+
+                                <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <a href="#portfolio" class="btn btn-naked">Check Our Work</a>
+                                </div>
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <a href="#team" class="btn btn-naked">Meet The Team</a>
+                                </div>
+                            </li>
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <img src="img/samples/iphone.png" alt="">
+                                </div>
+                                <div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                    <h1>.welcome</h1>
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    We Develop
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    Beautiful & Functional
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    Websites, Bradings & Web Apps
+                                </div>
+                                <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                                    <a href="#about" class="btn btn-primary btn-lg">LEARN MORE</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <div class="tp-bannertimer"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Fixed navbar -->
+            <div class="navbar navbar-static-top" id="nav" role="navigation">
+                <div class="theme-switcher">
+                    <div class="colors">
+                        <a href="javascript:void(0)" class="blue"></a>
+                        <a href="javascript:void(0)" class="orange"></a>
+                        <a href="javascript:void(0)" class="red"></a>
+                    </div>
+                    <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>
+                </div>
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-align-justify"></i>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo-blue.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#slider">Home</a>
+                            </li>
+                            <li><a href="#about">about</a>
+                            </li>
+                            <li><a href="#services">services</a>
+                            </li>
+                            <li><a href="#team">team</a>
+                            </li>
+                            <li><a href="#portfolio">our work</a>
+                            </li>
+                            <li><a href="#get-in-touch">contact</a>
+                            </li>
+                            <li><a href="blog-archive.html">blog</a>
+                            </li>
+                            <li class="social-nav visible-lg">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!--/.container -->
+            </div>
+            <!--/.navbar -->
+
+        </header>
+
+        <section id="whoWeAre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>.we are bond<span>y</span>
+                            </h1>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur temporibus a illum deleniti? Quae, adipisci praesentium quis omnis dignissimos!</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media scrollpoint sp-effect2">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-star fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">clean & clear</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                        <div class="media scrollpoint sp-effect2">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-support fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">24/7/365 support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media right scrollpoint sp-effect1">
+                            <a class="pull-right" href="#">
+                                <i class="media-object fa fa-send fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">multipurpose layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                        <div class="media right scrollpoint sp-effect1">
+                            <a class="pull-right" href="#">
+                                <i class="media-object fa fa-slack fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">pixed perfect</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>.about bond<span>y</span>
+                            </h1>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur temporibus a illum deleniti? Quae, adipisci praesentium quis omnis dignissimos!</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 scrollpoint sp-effect4">
+                                <img src="img/samples/imac.png" class="img-responsive img-center" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-university fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Why Bondy</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-user fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">what we do</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-umbrella fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">our history</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-taxi fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Achievments</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators vertical">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/samples/600-300/2.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="img/samples/600-300/3.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="img/samples/600-300/1.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Company highlights</h4>
+                        <h5>This is how we have aachieved the success!</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, nisi, debitis, quia molestiae ipsa dolores beatae eaque nulla tempora deserunt sunt suscipit quisquam laborum magnam aut reiciendis sed pariatur totam!</p>
+                        <ul>
+                            <li>Aenean sodales justo in neque adipiscing pulvinar.</li>
+                            <li>Vivamus faucibus nisi et fermentum mattis.</li>
+                            <li>Proin commodo lorem non gravida varius.</li>
+                            <li>Proin condimentum lacus sed tristique lacinia.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 scrollpoint sp-effect1">
+                        <img src="img/samples/ipad-bl.png" class="img-responsive ipad-image img-center" alt="">
+                    </div>
+                    <div class="col-md-7 scrollpoint sp-effect2">
+                        <h1>.Core Features of bond<span>Y</span>
+                        </h1>
+                        <div class="media media-circle">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-angle-right fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Beautiful</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                        <div class="media media-circle">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-angle-right fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Powerful</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                        <div class="media media-circle">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-angle-right fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Responsive</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>.Services we offer</h1>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="media media-services right scrollpoint sp-effect1">
+                                    <a class="pull-right" href="#">
+                                        <i class="media-object fa fa-mobile fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Mobile development</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services right scrollpoint sp-effect2">
+                                    <a class="pull-right" href="#">
+                                        <i class="media-object fa fa-link fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">networking</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services right scrollpoint sp-effect1">
+                                    <a class="pull-right" href="#">
+                                        <i class="media-object fa fa-film fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">video editing</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media media-services scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-send-o fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">startup launching</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services scrollpoint sp-effect1">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-shopping-cart fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">ui / ux design</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-shopping-cart fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">e-commerce solutions</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <i class="fa fa-quote-left fa-4x"></i>
+                            <h3>.Client's testimonials</h3>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="testimonials-carousel" class="carousel slide scrollpoint sp-effect3" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cumque reprehenderit blanditiis consequatur magnam ipsa vitae deserunt odio nesciunt enim sint tempore magni sit alias illo quisquam unde. Laboriosam, minima!</p>
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-push-5">
+                                            <div class="author">
+                                                <h5>Name dot name</h5>
+                                                <p>Senior UI Developer - ScoopThemes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cumque reprehenderit blanditiis consequatur magnam ipsa vitae deserunt odio nesciunt enim sint tempore magni sit alias illo quisquam unde. Laboriosam.</p>
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-push-5">
+                                            <div class="author">
+                                                <h5>Name dot name</h5>
+                                                <p>Senior UI Developer - ScoopThemes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#testimonials-carousel" data-slide="prev">
+                                <i class="fa fa-angle-left fa-3x"></i>
+                            </a>
+                            <a class="right carousel-control" href="#testimonials-carousel" data-slide="next">
+                                <i class="fa fa-angle-right fa-3x"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="buyNow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 scrollpoint sp-effect2">
+                        <img src="img/samples/macbook-bl.png" alt="" class="img-responsive macbook-image img-center">
+                    </div>
+                    <div class="col-md-5 scrollpoint sp-effect1">
+                        <h1>.Buy bond<span>y</span>
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis esse velit nesciunt. Eius, atque, animi quidem libero harum modi cumque similique eveniet consequuntur dignissimos beatae necessitatibus ipsum cum unde deleniti! animi quidem libero harum modi cumque similique eveniet consequuntur!</p>
+                        <a href="#" class="btn btn-primary btn-lg">Buy now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>.Meet the team</h1>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect5">
+                                <div class="member-image">
+                                    <img src="img/samples/team/1.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name">
+                                    <h4>Sara jones</h4>
+                                    <p>Art Director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect3">
+                                <div class="member-image">
+                                    <img src="img/samples/team/2.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name member-odd">
+                                    <h4>jon Doe</h4>
+                                    <p>UI Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect5">
+                                <div class="member-image">
+                                    <img src="img/samples/team/3.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name">
+                                    <h4>Sam jones</h4>
+                                    <p>Design Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect3">
+                                <div class="member-image">
+                                    <img src="img/samples/team/4.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name member-odd">
+                                    <h4>Sofia jones</h4>
+                                    <p>IT Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h3>.we got skills</h3>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="95">
+                            <span>95%</span>
+                        </div>
+                        <h4 class="skill-detail">html/css</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="75">
+                            <span>75%</span>
+                        </div>
+                        <h4 class="skill-detail">wordpress</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="55">
+                            <span>55%</span>
+                        </div>
+                        <h4 class="skill-detail">javascript</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-6 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="35">
+                            <span>35%</span>
+                        </div>
+                        <h4 class="skill-detail">python</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>.the work</h1>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="filters" class="button-group">
+                        <button data-filter="*" class="current">all items</button>
+                        <button data-filter=".web-design">web design</button>
+                        <button data-filter=".print">print</button>
+                        <button data-filter=".mobile">mobile</button>
+                        <button data-filter=".logo">logo</button>
+                    </div>
+
+                    <div id="container">
+                        <div class="item col-md-3 col-sm-6 web-design">
+                            <div class="details">
+                                <img src="img/samples/portfolio/1.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-facebook"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Branding</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 print">
+                            <div class="details">
+                                <img src="img/samples/portfolio/2.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star-o"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Point Of Sale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 mobile">
+                            <div class="details">
+                                <img src="img/samples/portfolio/6.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Web Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 logo">
+                            <div class="details">
+                                <img src="img/samples/portfolio/7.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-pinterest"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Logo Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 web-design">
+                            <div class="details">
+                                <img src="img/samples/portfolio/8.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Web Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 logo">
+                            <div class="details">
+                                <img src="img/samples/portfolio/3.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Logo Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 print">
+                            <div class="details">
+                                <img src="img/samples/portfolio/4.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Branding</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 mobile">
+                            <div class="details">
+                                <img src="img/samples/portfolio/5.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Lorem ipsum dolor sit.</h5>
+                                            <span class="divider"></span>
+                                            <p>Mobile</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="twitter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading white scrollpoint sp-effect3">
+                            <h1>.bond<span>y</span>@ twitter</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="carousel-twitter" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-twitter" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-twitter" data-slide-to="1"></li>
+                            <li data-target="#carousel-twitter" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, eos, non ad molestiae obcaecate sapiente dolorem magnam quisquam maiores voluptatem sunt cumque iure illo a dicta? <a href="https://twitter.com/scoopthemes">https://twitter.com/scoopthemes</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, eos, non ad molestiae obcaecate sapiente dolorem magnam quisquam maiores voluptatem sunt cumque iure illo a dicta? <a href="https://twitter.com/scoopthemes">https://twitter.com/scoopthemes</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, eos, non ad molestiae obcaecate sapiente dolorem magnam quisquam maiores voluptatem sunt cumque iure illo a dicta? <a href="https://twitter.com/scoopthemes">https://twitter.com/scoopthemes</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <a href="#" class="btn btn-empty text-center">
+                            <i class="fa fa-twitter"></i> Follow
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="get-in-touch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>.get in touch</h1>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis!</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-details">
+                            <div class="detail">
+                                <h4>bond
+                                    <span class="brandy">y</span>web agency.</h4>
+                                <p>4, Some street, California, USA</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call us</h4>
+                                <p>+1 234 567890</p>
+                            </div>
+                            <div class="detail">
+                                <h4>email us</h4>
+                                <p>support@Bondy.com</p>
+                            </div>
+                            <div class="detail">
+                                <ul class="clearfix">
+                                    <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group has-feedback left">
+                                <input type="text" class="form-control" placeholder="NAME">
+                                <i class="fa fa-user form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback left">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <i class="fa fa-envelope-o form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback left">
+                                <textarea class="form-control" rows="7" placeholder="MESSAGE"></textarea>
+                                <i class="fa fa-pencil-square-o form-control-feedback"></i>
+                            </div>
+                            <button class="btn btn-primary btn-lg pull-right" type="submit">SUBMIT</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="map"></section>
+
+        <footer id="site-footer">
+            <div class="container">
+                <div class="row">
+                    <span class="divider grey"></span>
+                    <h4>2014 Bond<span class="brandy">y</span> Agency.</h4>
+                    <h5>by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a>
+                    </h5>
+                    <a href="#" class="scroll-top">
+                        <img src="img/top.png" alt="" class="top">
                     </a>
-                </li>
-                <li class="main-search">
-                    <form>
-                        <input type="text" class="form-control" placeholder="Search here...">
-                        <span class="fa fa-search"></span>
-                    </form>
-                </li>
-                <li><a href="#GettingStarted">Overview</a>
-                </li>
-                <li><a href="#MainStructure">Main Structure <span class="fa fa-angle-down"></span></a>
-                    <ul>
-                        <li><a href="#BegOfPage">Beginning of the Page</a></li>
-                        <li><a href="#PageHead">Page Head</a></li>
-                        <li><a href="#Header">Header</a></li>
-                        <li><a href="#Sections">Sections</a></li>
-                        <li><a href="#Footer">Footer</a></li>
-                    </ul>
-                </li>
-                <li><a href="#Theme">Theme configuration <span class="fa fa-angle-down"></span></a>
-                    <ul>
-                        <li><a href="#sass">Using sass</a>
-                        </li>
-                        <li><a href="#Css">Stylesheets</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#JScript">Javascript Intialization</a>
-                </li>
-                <li><a href="#Fonts">Fonts</a>
-                </li>
-                <li><a href="#Credits">Credits</a>
-                </li>
-                <li><a href="#Mockups">Mockups Download</a>
-                </li>
-                <li><a href="#Thanks">Thank You</a>
-                </li>
-            </ul>
-
-            <div class="copy-rights">
-                <span>Copy Rights &copy; For <a href="http://www.scoopthemes.com" target="_blank">ScoopTheme.com</a>
-                </span>
+                </div>
             </div>
-
-        </div>
-
-        <!-- Page content -->
-        <div id="page-content-wrapper">
-            <div class="content-header">
-                <a id="menu-toggle" href="#" class="btn btn-default">
-                    <span class="fa fa-bars"></span>
-                </a>
-                <h1 id="GettingStarted">
-                    Bondy Overview
-                </h1>
-            </div>
-            <!-- Keep all page content within the page-content inset div! -->
-            <div class="page-content inset">
-
-                <div id="OverView">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="lead">Bondy is an incredibly eye catching and fully responsive Bootstrap 3 Template for any upcoming project. Template comes with developer friendly and easy to customizable code. It works on all main web browsers "IE8+", tablets and phones.</p>
-                            <p class="lead">We hope you will enjoy using Bondy template’s easy to navigate, user-friendly and catchy layout and yet developer friendly code. Our best wishes for your project or your customer :).</p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>Copy Rights</h3>
-                            <ul class="list-unstyled">
-                                <li>Author : <a href="http://www.scoopthemes.com">Scoopthemes</a></li>    
-                                <li>Twitter : <a href="http://www.twitter.com/scoopthemes" target="_blank">@ScoopThemes</a></li>
-                                <li>Facebook : <a href="http://www.facebook.com/scoopthemes" target="_blank">fb.com/scoopthemes</a></li>
-                                <li>Support : <a href="mailto:support@scoopthemes.com">support@scoopthemes.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <!--Overview-->
-
-                <div id="MainStructure">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>Main Structure</h3>
-                            <p>Bondy landing page structures as <code>header</code>, <code>slider</code>, <code>section</code>, <code>footer</code> and <code>copyrights</code> very google friendly html.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-
-                <div class="row" id="BegOfPage">
-                    <div class="col-md-12">
-                        <h3>Beginning of the Page</h3>
-                        <p>In order to detect Internet Explorer browser version a specific class implemented to following code at the beginning of all HTML pages</p>
-<pre>&lt;!doctype html&gt; 
-&lt;!--[<span style=' color: Blue;'>if</span> lt IE <span style=' color: Maroon;'>7</span>]&gt;&lt;html lang=<span style=' color: Maroon;'>"en"</span> <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"no-js ie6"</span>&gt;&lt;![endif]--&gt; 
-&lt;!--[<span style=' color: Blue;'>if</span> IE <span style=' color: Maroon;'>7</span>]&gt;&lt;html lang=<span style=' color: Maroon;'>"en"</span> <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"no-js ie7"</span>&gt;&lt;![endif]--&gt; 
-&lt;!--[<span style=' color: Blue;'>if</span> IE <span style=' color: Maroon;'>8</span>]&gt;&lt;html lang=<span style=' color: Maroon;'>"en"</span> <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"no-js ie8"</span>&gt;&lt;![endif]--&gt; 
-&lt;!--[<span style=' color: Blue;'>if</span> gt IE <span style=' color: Maroon;'>8</span>]&gt;&lt;!--&gt; 
-&lt;html lang=<span style=' color: Maroon;'>"en"</span> <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"no-js"</span>&gt; 
-&lt;!--&lt;![endif]--&gt;</pre>
-                        
-                    </div>
-                </div>
-
-                <div class="row" id="PageHead">
-                    <div class="col-md-12">
-                        <h3>Page Head</h3>
-                        <p>Page head contains Title, Metadata, Favicon and CSS.</p>
-<pre>&lt;head&gt; 
-    &lt;meta charset=<span style=' color: Maroon;'>"UTF-8"</span>&gt; 
-    &lt;title&gt;Bondy - Home&lt;/title&gt; 
-    &lt;meta name=<span style=' color: Maroon;'>"viewport"</span> content=<span style=' color: Maroon;'>"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"</span>&gt; 
-    &lt;meta http-equiv=<span style=' color: Maroon;'>"X-UA-Compatible"</span> content=<span style=' color: Maroon;'>"IE=edge,chrome=1"</span> /&gt; 
-    &lt;link rel=<span style=' color: Maroon;'>"shortcut icon"</span> href=<span style=' color: Maroon;'>"favicon.ico"</span>&gt; 
-
-    &lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> href=<span style=' color: Maroon;'>"css/bootstrap.min.css"</span>&gt; 
-    &lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> href=<span style=' color: Maroon;'>"css/animate.css"</span>&gt; 
-    &lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> href=<span style=' color: Maroon;'>"css/font-awesome.min.css"</span>&gt; 
-    &lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> href=<span style=' color: Maroon;'>"css/styles.css"</span>&gt; 
-
-    &lt;!-- REVOLUTION BANNER CSS SETTINGS --&gt; 
-    &lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> type=<span style=' color: Maroon;'>"text/css"</span> href=<span style=' color: Maroon;'>"rs-plugin/css/settings.css"</span> media=<span style=' color: Maroon;'>"screen"</span> /&gt; 
-
-    &lt;script src=<span style=' color: Maroon;'>"js/modernizr.custom.32033.js"</span>&gt;&lt;/script&gt; 
-
-    &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt; 
-    &lt;!-- WARNING: Respond.js doesn't work <span style=' color: Blue;'>if</span> you view the page via file:<span style=' color: Green;'>// --&gt;</span> 
-    &lt;!--[<span style=' color: Blue;'>if</span> lt IE <span style=' color: Maroon;'>9</span>]&gt; 
-      &lt;script src=<span style=' color: Maroon;'>"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"</span>&gt;&lt;/script&gt; 
-      &lt;script src=<span style=' color: Maroon;'>"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"</span>&gt;&lt;/script&gt; 
-    &lt;![endif]--&gt; 
-
-&lt;/head&gt;</pre>
-
-                    </div>
-                </div>
-
-                <div class="row" id="Header">
-                    <div class="col-md-12">
-                        <h3>Header</h3>
-                        <p><code>header</code> tag contains both the <code>nav</code> navbar and <code>.tp-banner-container</code> container class for the revolution slider.</p>
-<pre>&lt;header <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"masthead"</span>&gt; 
-    &lt;!--Revolution Slider--&gt; 
-    &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"slider-container"</span> id=<span style=' color: Maroon;'>"slider"</span>&gt; 
-        &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"tp-banner-container"</span>&gt; 
-            ... 
-            ... 
-        &lt;/div&gt; 
-    &lt;/div&gt; 
-
-    &lt;!--Navigation--&gt; 
-    &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"navbar navbar-static-top"</span> id=<span style=' color: Maroon;'>"nav"</span> role=<span style=' color: Maroon;'>"navigation"</span>&gt; 
-        ... 
-        ... 
-    &lt;/div&gt;             
-&lt;/header&gt;</pre>
-                    </div>
-                </div>
-
-
-                <div class="row" id="Sections">
-                    <div class="col-md-12">
-                        <h3>Sections</h3>
-                        <p>Each section are in <code>section</code> tag with an id for the nav scrolling, inside it <code>.section-heading</code> class and contents.</p>
-                        <p><code>.scrollpoint</code> class is for animation on scrolling it's toggeling when the section in the view.</p>
-                        <p><code>.sp-effect1</code>, <code>.sp-effect2</code>, <code>.sp-effect3</code>, <code>.sp-effect4</code>, <code>.sp-effect5</code> and <code>.sp-effect6</code> classes is for adding animation classes each has it's own effect.</p>
-                        <p><code>.divider</code> is the seperatot between the <code>h1</code> and <code>h4</code> sub title.</p>
-<pre>&lt;section id<span style=' color: Maroon;'>"id_goes_here"</span>&gt; 
-    &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"container"</span>&gt; 
-        &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"row"</span>&gt; 
-            &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"col-md-8 col-md-push-2 clearfix"</span>&gt; 
-                &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"section-heading scrollpoint sp-effect3"</span>&gt; 
-                    &lt;h1&gt;.Titl&lt;span&gt;e&lt;/span&gt; 
-                    &lt;/h1&gt; 
-                    &lt;h4&gt;sub title goes here&lt;/h4&gt; 
-                    &lt;span <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"divider"</span>&gt;&lt;/span&gt; 
-                &lt;/div&gt; 
-            &lt;/div&gt; 
-            &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"col-md-12"</span>&gt; 
-                &lt;!--Content Goes Here With bootstrap Standards col-xs-# --&gt; 
-            &lt;/div&gt; 
-        &lt;/div&gt; 
-    &lt;/div&gt; 
-&lt;/section&gt;</pre>
-                    </div>
-                </div>
-
-                <div class="row" id="Footer">
-                    <div class="col-md-12">
-                        <h3>Footer & Copy rights</h3>
-                        <p><code>footer</code> tag is the main footer container inside it goes the copy rights and social links.</p>
-<pre>&lt;footer id=<span style=' color: Maroon;'>"site-footer"</span>&gt; 
-    &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"container"</span>&gt; 
-        &lt;div <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"row"</span>&gt; 
-            &lt;span <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"divider grey"</span>&gt;&lt;/span&gt; 
-            &lt;h4&gt;<span style=' color: Maroon;'>2014</span> ScoopTheme&lt;span <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"brandy"</span>&gt;s&lt;/span&gt; Agency.&lt;/h4&gt; 
-            &lt;h5&gt;by &lt;a href=<span style=' color: Maroon;'>"#"</span>&gt;ScoopThemes&lt;/a&gt;&lt;/h5&gt; 
-            &lt;a href=<span style=' color: Maroon;'>"#"</span> <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"scroll-top"</span>&gt;&lt;img src=<span style=' color: Maroon;'>"img/top.png"</span> alt=<span style=' color: Maroon;'>""</span> <span style=' color: Blue;'>class</span>=<span style=' color: Maroon;'>"top"</span>&gt;&lt;/a&gt; 
-        &lt;/div&gt; 
-    &lt;/div&gt; 
-&lt;/footer&gt;</pre>
-                    </div>
-                </div>
-                <!--Main Structure-->
-
-                
-
-                <div class="row" id="Theme">
-                    <div class="col-md-12">
-                        <h3>Theme Configuration</h3>
-                        <p>Bondy Template includes Three predefined theme colors. You can easily change the theme for your favorite colors using sass Css.</p>
-                    </div>
-                </div>
-
-                <div class="row" id="less">
-                    <div class="col-md-12">
-                        <h3>Using sass</h3>
-                        <p>Bondy Template uses sass css processor, you can find the sass files in <code>../sass</code>. We will take you step by step to know the structure well.</p>
-                        <p>The head for sass will look like this :</p>
-                        <pre>
-&lt;!-- Contains Template Styling --&gt; 
-&lt;link rel=<span style=' color: Maroon;'>"stylesheet/sass"</span> href=<span style=' color: Maroon;'>"sass/styles.scss"</span>&gt; 
-</pre>
-
-                        <p>To Change colors open <code>styles.scss</code> you can find it in <code>/sass/styles.sass</code>, below how code looks like, see the <code>$brand-primary:</code> change <code>#ff7f00</code> to your light color. and it will calculate the light and the dark of this color</p>
-                        <p>Compile the <code>styles.scss</code> file and you will get a ready css file with your favorite color.</p>
-                        <h3>Sass mixins</h3>
-<pre>@import url(http:<span style=' color: Green;'>//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);</span> 
-
-<span style=' color: Green;'>//Colors</span> 
-
-$brand-primary :        #ff7f00; <span style=' color: Green;'>// this is the primary color for your template</span>
-$brand-primary-light :  lighten($brand-primary, <span style=' color: Maroon;'>20</span>%); <span style=' color: Green;'>// the lighter color for your primary color</span>
-$brand-primary-dark :   darken($brand-primary, <span style=' color: Maroon;'>20</span>%); <span style=' color: Green;'>// the darker color for your primary color</span>
-$brand-success:         #<span style=' color: Maroon;'>5</span>cb85c; <span style=' color: Green;'>// success color</span>
-$brand-info:            #<span style=' color: Maroon;'>5</span>bc0de; <span style=' color: Green;'>// info color</span> 
-$brand-warning:         #f0ad4e; <span style=' color: Green;'>// warning color </span> 
-$brand-danger:          #d9534f; <span style=' color: Green;'>// danger color</span> 
-
-<span style=' color: Green;'>//Grays</span> 
-$gray-darker:           lighten(#<span style=' color: Maroon;'>000</span>, <span style=' color: Maroon;'>13</span><span style=' color: Maroon;'>.5</span>%); <span style=' color: Green;'>// #222</span> 
-$gray-dark:             lighten(#<span style=' color: Maroon;'>000</span>, <span style=' color: Maroon;'>20</span>%);   <span style=' color: Green;'>// #333</span>
-$gray:                  lighten(#<span style=' color: Maroon;'>000</span>, <span style=' color: Maroon;'>33</span><span style=' color: Maroon;'>.5</span>%); <span style=' color: Green;'>// #555</span> 
-$gray-light:            lighten(#<span style=' color: Maroon;'>000</span>, <span style=' color: Maroon;'>60</span>%);   <span style=' color: Green;'>// #999</span>
-$gray-lighter:          lighten(#<span style=' color: Maroon;'>000</span>, <span style=' color: Maroon;'>93</span><span style=' color: Maroon;'>.5</span>%); <span style=' color: Green;'>// #eee</span> 
-
-<span style=' color: Green;'>//Basic Colors</span> 
-$white-color :         #FFFFFF; <span style=' color: Green;'>// hex of the white</span> 
-$black-color:         #<span style=' color: Maroon;'>000000</span>; <span style=' color: Green;'>// hex of the black</span>
-
-<span style=' color: Green;'>//font family</span> 
-$font-stack :         'Open Sans', Tahoma, Arial; 
-
-<span style=' color: Green;'>//Mixins</span> 
-
-<span style=' color: Green;'>//Primary Color Gradient</span> 
-@include primaryGrad(gradDegree , gradStart, gradEnd ); 
-
-<span style=' color: Green;'>//Gray Color Gradient</span> 
-@mixin grayGrad(gradDeg , gradStart, gradEnd); 
-
-<span style=' color: Green;'>//Border Radius</span> 
-@mixin border-radius(radius); 
-
-<span style=' color: Green;'>//Box Shadow</span> 
-@mixin box-shadow(shadow ); <span style=' color: Green;'>//like 0px 1px 3px rgba(0,0,0,.5)</span>
-
-<span style=' color: Green;'>//Text Shadow</span> 
-@mixin text-shadow(text Shadow );  <span style=' color: Green;'>//like 0px 1px 3px rgba(0,0,0,.5)</span>
-
-<span style=' color: Green;'>//Transition</span> 
-@mixin transition( transition value ); 
-
-<span style=' color: Green;'>//Transparent</span> 
-@mixin transparent(color, alpha);</pre>
-
-<p class="alert alert-info">If you don't know how to compile sass use very easy <a href="http://koala-app.com/" target="_blank">koala app</a> for windows, mac or linux.</p>
-
-
-                    </div>
-                </div>
-
-                <div class="row" id="Css">
-                    <div class="col-md-12">
-                        <h3>Stylesheets</h3>
-                        <p>Bondy comes with three different colors trying to meet your needs, <code>../css/styles.css</code>, <code>../css/styles2.css</code> and <code>../css/styles3.css</code> in the html you will find it in the head seaction :</p>
-                        <p>You can change it to your <code>.css</code> file favorite theme.</p>
-                        <pre>&lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> href=<span style=' color: Maroon;'>"css/styles.css"</span>&gt;</pre>
-                        <p>If you want to use any of the predefined colors keep it as is :).</p>
-                    </div>
-                </div>
-
-                <div class="row" id="JScript">
-                    <div class="col-md-12">
-                        <h3>Javascript Intialization</h3>
-                        <p>Core javascript initialization implemented in <code>../js/script.js</code> thorugh <code>appMaster</code> object as shown below. This approach enables an easy modular implementation to initialize jquery plugins and other application logics.</p>
-                        <p>You can call any of the available functions by objects for example : <code>appMaster.smoothScroll();</code>, or even add your own.</p>
-<pre>var appMaster = { 
-
-    preLoader: function(){ 
-        <span style=' color: Green;'>// page preloader</span> 
-    }, 
-
-    navSpy: function(){ 
-        <span style=' color: Green;'>// navspy for nav menu</span> 
-    }, 
-
-    smoothScroll: function() { 
-        <span style=' color: Green;'>// Smooth Scrolling animates the whole web page to the section clicked </span>
-    }, 
-
-    scollToTop: function(){ 
-        <span style=' color: Green;'>// scoll to top script</span> 
-    }, 
-
-    revSlider: function(){ 
-        <span style=' color: Green;'>// Revolution Slider Initialization </span> 
-    }, 
-
-    skillsCircles: function(){ 
-        <span style=' color: Green;'>// skills Circles Initialization </span> 
-    }, 
-
-    maps: function(){ 
-        <span style=' color: Green;'>// Google Maps</span> 
-    }, 
-
-    isoTop: function(){ 
-        <span style=' color: Green;'>// isotop Initialization </span> 
-    }, 
-
-    animateScript: function() { 
-        <span style=' color: Green;'>// this animates the elements on scrolloing using waypoint plugin</span>
-    },
-
-    canvasHack: function(){ 
-        <span style=' color: Green;'>// hack for canvas to work in ie8</span> 
-    }
-}; 
-</pre>
-                    </div>
-                </div>
-
-
-                <div class="row" id="Fonts">
-                    <div class="col-md-12">
-                        <h3>Fonts</h3>
-                        <p>Bondy Template uses Open Sans font for headings from Google Web Fonts. You are able to choose more than 600+ fonts from Google Web Fonts. The font imported in the theme css file <code>../css/styles.css</code></p>
-                        <p>In sass project you will find it in <code>styles.scss</code> file you can find it in <code>../sass/styles.scss</code>.</p>
-                        <pre>
-// Font Importing 
-@import url(http://fonts.googleapis.com/css<span style=' color: #2B91AF;'>?</span>family=Lato:<span style=' color: Maroon;'>300</span>,<span style=' color: Maroon;'>400</span>,<span style=' color: Maroon;'>700</span>,<span style=' color: Maroon;'>900</span>);</pre>
-                    </div>
-                </div>
-                
-                <div class="row" id="Credits">
-                    <div class="col-md-12">
-                        <h3>Credits</h3>
-                <table class="table table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th width="120">Name</th>
-                            <th class="hidden-sm">Description</th>
-                            <th>URL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Twitter Bootstrap</td>
-                            <td class="hidden-sm">Sleek, intuitive, and powerful front-end framework for faster and easier web development.</td>
-                            <td><a target="_blank" href="http://twitter.github.io/bootstrap">http://twitter.github.io/bootstrap</a></td>
-                        </tr>
-                        <tr>
-                            <td>jQuery</td>
-                            <td class="hidden-sm">jQuery is a fast, small, and feature-rich JavaScript library.</td>
-                            <td><a target="_blank" href="http://jquery.com">http://jquery.com</a></td>
-                        </tr>
-                        <tr>
-                            <td>Font Awesome</td>
-                            <td class="hidden-sm">Font Awesome The iconic font designed for Bootstrap</td>
-                            <td><a target="_blank" href="http://fortawesome.github.io/Font-Awesome">http://fortawesome.github.io/Font-Awesome</a></td>
-                        </tr>
-                        <tr>
-                            <td>easyPieChart</td>
-                            <td class="hidden-sm">Lightweight plugin to render simple, animated and retina optimized pie charts</td>
-                            <td><a target="_blank" href="https://github.com/rendro/easy-pie-chart">https://github.com/rendro/easy-pie-chart</a></td>
-                        </tr>
-                        <tr>
-                            <td>excanvas</td>
-                            <td class="hidden-sm">HTML5 Canvas for Internet Explorer</td>
-                            <td><a target="_blank" href="https://code.google.com/p/explorercanvas/">https://code.google.com/p/explorercanvas/</a></td>
-                        </tr>
-                        <tr>
-                            <td>Revolution Slider</td>
-                            <td class="hidden-sm">Slider Revolution is a fully developed slide displaying system offering the capability to show images, videos and captions paired with simple, modern and fancy 3D transitions.</td>
-                            <td><a target="_blank" href="http://www.themepunch.com/codecanyon/revolution">http://www.themepunch.com/codecanyon/revolution</a></td>
-                        </tr>
-                        <tr>
-                            <td>isotope</td>
-                            <td class="hidden-sm">Filter & sort magical layouts.</td>
-                            <td><a target="_blank" href="http://isotope.metafizzy.co/">http://isotope.metafizzy.co/</a></td>
-                        </tr>
-                        <tr>
-                            <td>Waypoint</td>
-                            <td class="hidden-sm">Waypoints is a jQuery plugin that makes it easy to execute a function whenever you scroll to an element.</td>
-                            <td><a target="_blank" href="https://github.com/imakewebthings/jquery-waypoints">https://github.com/imakewebthings/jquery-waypoints</a></td>
-                        </tr>
-                        <tr>
-                            <td>Mockups</td>
-                            <td class="hidden-sm">All the mockups included from freebbble.com.</td>
-                            <td><a target="_blank" href="http://freebbble.com/">http://freebbble.com/</a></td>
-                        </tr>
-                    </tbody>
-                </table> 
-
-                    </div>
-                </div>
-
-                <div class="row" id="Mockups">
-                    <div class="col-md-12">
-                        <h3>Mockup Download Links</h3>
-                        <p>As promissed here are the link to download mockups download from <a href="http://www.scoopthemes.com/Bondy/mockups.zip">here</a>.</p>
-                    </div>
-                </div>
-
-
-                <div class="row" id="Thanks">
-                    <div class="col-md-12">
-                        <p>Thank You For Purchasing Our Template, We Wish For You The Best Of Luck With Your Client, Cheers :). ScoopThemes Team.</p>
-                    </div>
-                </div>
-
-
-
-
-                
-
-            </div>
-            <!--End of inner-content-->
-
-
-
-            <br />
-            <br />
-
-        </div>
+        </footer>
     </div>
+    <!--/wrap-->
 
-    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
 
-    <!-- JavaScript -->
-    <script type='text/JavaScript' src="js/jquery-1.11.1.min.js"></script>
-    <script type='text/JavaScript' src="js/bootstrap.min.js"></script>
-    <script type='text/JavaScript' src="js/common.js"></script>
+    <!-- jQuery REVOLUTION Slider  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
+    <script src="js/waypoints.min.js"></script>
 
-    <!-- Custom JavaScript for the Menu Toggle -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+    <script src="js/script.js"></script>
+
     <script>
     $(document).ready(function() {
-        DocMaster.treeMenu();
-        DocMaster.sideToggle();
-        DocMaster.scrollToElement();
+        appMaster.preLoader();
+        appMaster.smoothScroll();
+        appMaster.animateScript();
+        appMaster.navSpy();
+        appMaster.revSlider();
+        appMaster.stellar();
+        appMaster.skillsChart();
+        appMaster.maps();
+        appMaster.isoTop();
+        appMaster.canvasHack();
     });
     </script>
+
 </body>
 
 </html>
