@@ -164,6 +164,9 @@
 *******Header******
 **************************/
 
+#header-logo {
+    width: 15%;
+}
 
 #header{
   margin-bottom: 0;
@@ -274,13 +277,13 @@
   padding: 0;
   margin: 0;
 }
-
+ 
 #header .navbar-nav.navbar-right >li:last-child{
   margin-right: 20px;
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: #000;
+  color: #fff;
   font-size: 12px;
   padding: 20px;
   text-transform: uppercase;
