@@ -57,7 +57,7 @@ body {
 
 /* link styles */
 a {
-    color: #ff2a40;
+    color: #2ecc71;
 }
 a,
 a > * {
@@ -67,7 +67,7 @@ a > * {
 }
 a:focus,
 a:hover {
-    color: #C02232;
+    color: #0efb72;
     outline: none;
     text-decoration: none;
 }
