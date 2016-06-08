@@ -17,15 +17,16 @@ Designed and Developed by: ThemeBite
     4.0 - Navigation
     5.0 - Hero Section
     6.0 - About Us Section
-    7.0 - Testimonial Section
-    8.0 - Creative Section
-    9.0 - Awards Section
-    10.0 - Pricing And Plans Section
-    10.0 - Our Partners Section
-    11.0 - Blog Section
-    12.0 - Contact Section
-    13.0 - Google Map Section
-    14.0 - Footer Section
+    7.0 - Accoridon styling
+    8.0 - Testimonial Section
+    9.0 - Creative Section
+    10.0 - Awards Section
+    11.0 - Pricing And Plans Section
+    12.0 - Our Partners Section
+    13.0 - Blog Section
+    14.0 - Contact Section
+    15.0 - Google Map Section
+    16.0 - Footer Section
 -------------------------------------
 [ END CSS TABLE OF CONTENT ]
 =====================================
@@ -711,6 +712,88 @@ user-select: none;
 }
 .about-us-right .media-body {
   padding: 0 20px;
+}
+
+/* ============================
+    Accordion styling
+=============================== */
+
+.accordion {
+  width: 800px;
+  margin: 10px auto;
+  box-shadow:
+    0px 0px 0px 1px rgba(155,155,155,0.3),
+    0px 2px 2px rgba(0,0,0,0.1);
+}
+.accordion label {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 20px;
+  position: relative;
+    text-align:center;
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  line-height: 33px;
+  font-size: 19px;
+  background: #3b6209;
+  border: 1px solid #47750b;
+}
+.accordion label:hover {
+  background: #90aa3d;
+}
+.accordion input + label {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.accordion input:checked + label,
+.accordion input:checked + label:hover {
+  background: #3b6209;
+  color: white;
+  box-shadow:
+    0px 0px 0px 1px rgba(155,155,155,0.3),
+    0px 2px 2px rgba(0,0,0,0.1);
+}
+.accordion input {
+  display: none;
+}
+.accordion .article {
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  height: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.accordion .article p {
+font-size: 14px;
+line-height: 30px;
+font-weight: 400;
+color: #333333;
+  line-height: 23px;
+  font-size: 14px;
+  padding: 5px;
+}
+.accordion input:checked ~ .article {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.accordion input:checked ~ .article.ac-small {
+  height: 155px;
+}
+.accordion input:checked ~ .article.ac-medium {
+  height: 195px;
+}
+.accordion input:checked ~ .article.ac-large {
+  height: 245px;
 }
 
 
