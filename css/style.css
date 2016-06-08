@@ -27,6 +27,7 @@ Designed and Developed by: ThemeBite
     14.0 - Contact Section
     15.0 - Google Map Section
     16.0 - Footer Section
+    17.0 - Accordion Section
 -------------------------------------
 [ END CSS TABLE OF CONTENT ]
 =====================================
@@ -1376,3 +1377,22 @@ box-shadow: inset 0px 2px 25px -8px rgba(0,0,0,0.76);
             transition: all 0.3s ease-in-out 0s;
     vertical-align: middle;
 }
+
+/* ============================
+    Accordion Section
+=============================== */
+
+.accordion{border: 0px solid #ddd; border-top: none; margin: 10px 0; float: left; width: 200%; position: relative;}
+.accordion a{display: block; text-decoration: none;}
+.accordion h2, .accordion a{background-color: #fff; background-image: url(../img/gradient.jpg);
+background-image: -moz-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -ms-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -o-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -webkit-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: linear-gradient(bottom, #f1f1f1, #fff); 
+border-top: 1px solid #ddd;
+color: #222; font: 14px/30px 'Verdana', sans-serif; height: 30px; margin: 0; padding: 0; text-indent: 10px;}
+p{color: #555; font: 12px/18px 'Verdana', sans-serif; padding: 20px 10px;}
+
+#accordionhtml5{clear: both; margin-top: 20px;}
+details summary::-webkit-details-marker{display: none;}
