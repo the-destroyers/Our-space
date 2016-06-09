@@ -53,8 +53,12 @@ display: flex;
 }
 .uni--life{
 width: 50%;
-text-align: center;
-  
+    text-align: center;
+margin-left: -12%;
+}
+    .despite {
+    width: 50%;
+    }  
 }
 .text-center{
 text-align: center; 
