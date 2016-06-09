@@ -1,0 +1,133 @@
+/*============================
+    accordian tabs
+==============================*/
+
+    
+    .tab {
+      padding-left: 22%;
+      position: relative;
+      padding-bottom: 2px;
+      width: 80%;
+      overflow: hidden;
+        
+    }
+    
+    .tab label {
+      font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 2em;
+      color: #fff;
+    }
+    
+    .accordion label {
+      position: relative;
+      display: block;
+      padding: 0 0 0 1em;
+      background: #2ecc71;
+      font-weight: bold;
+      line-height: 3;
+      cursor: pointer;
+    }
+    /* hiding input boxes */
+    
+    .accordion input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+    }
+    
+    .tab-content {
+        padding:10px;
+      max-height: 0;
+      overflow: hidden;
+      background: #fff;
+      -webkit-transition: max-height .35s;
+      -o-transition: max-height .35s;
+      transition: max-height .35s;
+    }
+    /* :checked */
+    
+    input:checked ~ .tab-content {
+      max-height: 100%;
+    }
+    /* Icon */
+    
+    label::after {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+      width: 3em;
+      height: 3em;
+      line-height: 3;
+      text-align: center;
+      -webkit-transition: all .35s;
+      -o-transition: all .35s;
+      transition: all .35s;
+    }
+    
+    input[type=checkbox] + label::after {
+      content: "\2795";
+    }
+    
+    input[type=checkbox]:checked + label::after {
+      transform: rotate(315deg);
+    }
+    /*Responsive table*/
+    /* either change to regular or normalize with the previous code*/
+    
+    .table {
+      table-layout: fixed;
+      color: #fff;
+      display: table;
+      margin: 1em;
+      padding-right: 1em;
+      width: 100%;
+      border-collapse: collapse;
+      @media only screen and (min-width: 40.0625em) {
+        border-collapse: separate;
+      }
+    }
+    
+    .table thead {
+      display: none;
+      @media only screen and (min-width: 40.0625em) {
+        display: table-header-group;
+      }
+    }
+    
+    .table tbody tr {
+      /* border-bottom: 1px solid #DDDDDD;*/
+      height: 1em;
+    }
+    
+    .table tbody tr:nth-of-type(even) {
+      background: #fff;
+      @media only screen and (min-width: 40.0625em) {
+        background: #fff;
+        height: 1em;
+      }
+    }
+    
+    .table tbody tr:nth-child(odd) {
+      background: #2c3e50;
+    }
+    
+    .table tbody tr:nth-last-of-type(1) {
+      border-bottom: none;
+    }
+    
+    .table tbody tr td {
+      height: 1em;
+      @media only screen and (min-width: 40.0625em) {
+        display: table-cell;
+        height: 1em;
+      }
+    }
+    
+    .table tbody tr td:before {
+      color: #000;
+      font-weight: bold;
+      display: inline-block;
+      width: 6.5em;
+    }
