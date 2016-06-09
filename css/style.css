@@ -48,9 +48,17 @@ body{
     -webkit-overflow-scrolling: touch;
     -webkit-font-smoothing: antialiased !important;
 }
-
+.section-pro {
+display: flex;
+}
+.uni--life{
+width: 50%;
+text-align: center;
+  
+}
 .text-center{
 text-align: center; 
+font-weight: 900;   
    
 }
 html,
@@ -60,20 +68,29 @@ body {
 }
 
 /*main sections*/
+.timetable-title {
+margin-right: 50px;
+}
+.example--timetable {
+margin-right: 45px;
+}
+.container-fluid {
+width:900px;
+}
 #AboutTheCourse {
 padding-top: 30px;
-    padding-bottom: 2%;
+    
 }
 .aboutthecourse {
 margin-top: 10%;
-margin-bottom: 10%;    
+margin-bottom: 5%;    
 }
 .nicetoknow{
 margin-top: 10%;
-margin-bottom: 10%;
+margin-bottom: 5%;
 }
 .coursebreakdown{
-margin-top: 10%;
+margin-top: 15%;
 margin-bottom: 10%;
 }
 #nicetoknow {
