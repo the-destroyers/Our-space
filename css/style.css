@@ -49,7 +49,9 @@ body{
     -webkit-font-smoothing: antialiased !important;
 }
 
-
+.text-center{
+text-align: center;    
+}
 html,
 body {
     width: 100%;
