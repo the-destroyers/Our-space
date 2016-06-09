@@ -1527,6 +1527,7 @@ line-height: 10vh;
     }
     
     .tab-content {
+        padding:10px;
       max-height: 0;
       overflow: hidden;
       background: #fff;
