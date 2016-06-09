@@ -147,6 +147,7 @@ h6 {
 
 }
 .logo {
+    height: 
     padding: 32px 0;
     -webkit-transition: all 0.4s ease-in-out 0s;
             transition: all 0.4s ease-in-out 0s;
@@ -157,7 +158,7 @@ h6 {
 
 .logo h2{
     font-family: "Montserrat",sans-serif;
-    font-size: 30px;
+    font-size: 4vmin
     padding: 0;
     text-transform: uppercase;
 }
@@ -1413,3 +1414,19 @@ p{color: #555; font: 12px/18px 'Verdana', sans-serif; padding: 20px 10px;}
 
 #accordionhtml5{clear: both; margin-top: 20px;}
 details summary::-webkit-details-marker{display: none;}
+
+
+/* ============================
+    Text Logo
+=============================== */
+
+.text-logo {
+    height: 10vh;
+    vertical-align:middle;
+}
+
+.actual-text-logo {
+    text-align: center;
+vertical-align: middle;
+line-height: 10vh;
+}
