@@ -486,7 +486,7 @@ ul {
 }
 
 .logo-hero {
-    width: 80%;
+    width: 90vh;
     height: auto;
 
     user-drag: none; 
