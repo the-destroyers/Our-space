@@ -48,6 +48,10 @@ body{
     -webkit-overflow-scrolling: touch;
     -webkit-font-smoothing: antialiased !important;
 }
+
+p {
+    font-size: 1.25vmin;
+}
 .section-pro {
 display: flex;
 }
@@ -83,6 +87,7 @@ width:900px;
 }
 #AboutTheCourse {
 padding-top: 15px;
+font-size: 3vmin;
     
 }
 .aboutthecourse {
@@ -90,12 +95,12 @@ margin-top: -3%;
 margin-bottom: 1%;    
 }
 .nicetoknow{
-margin-top: 10%;
+margin-top: 5%;
 margin-bottom: 5%;
 }
 .coursebreakdown{
-margin-top: 15%;
-margin-bottom: 10%;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 #nicetoknow {
 padding-top: 30px;
@@ -191,7 +196,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 2vmin;
     line-height: 25px;
     text-transform: uppercase;
 }
@@ -297,7 +302,7 @@ ul {
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 3vmin;
     line-height: 30px;
     color: #333333;
     margin-bottom: 50px;
