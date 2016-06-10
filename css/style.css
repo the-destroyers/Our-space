@@ -83,7 +83,7 @@ width:900px;
 }
 #AboutTheCourse {
 padding-top: 5%;
-font-size: 3vmin;
+font-size: 3vh;
     
 }
 .aboutthecourse {
@@ -105,6 +105,7 @@ padding-top: 5%;
 }
 #events {
 padding-top: 5%;
+    color: white;
 }
 #industrylinks {
 padding-top: 5%;
@@ -297,7 +298,7 @@ ul {
 }
 
 .section-title {
-    font-size: 3vmin;
+    font-size: 3vh;
     line-height: 30px;
     color: #333333;
     margin-bottom: 50px;
