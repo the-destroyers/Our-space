@@ -37,7 +37,7 @@ Designed and Developed by: ThemeBite
     Base Styles
 =============================== */
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     font-size: 14px;
     line-height: 30px;
     font-weight: 400;
@@ -53,15 +53,13 @@ display: flex;
 }
 .uni--life{
 width: 50%;
-    text-align: center;
 margin-left: -12%;
 }
     .despite {
     width: 50%;
     }  
 }
-.text-center{
-text-align: center; 
+.text-center{ 
 font-weight: 900;   
    
 }
@@ -152,7 +150,7 @@ a,
     transition: all 0.2s ease;
 }
 #qLpercentage {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     font-weight: 800;
 }
 
@@ -177,7 +175,7 @@ button:focus {
 =============================== */
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     font-weight: 700;
     margin: 0 0 15px;
     color: #333333;
@@ -220,7 +218,7 @@ h6 {
 }
 
 .logo h2{
-    font-family: "Montserrat",sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     font-size: 4vmin;
     padding: 0;
     text-transform: uppercase;
@@ -535,7 +533,7 @@ user-select: none;
     color: #fff;
 }
 .text-rotator-bg h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
 }
 /* Paricle BG */
 #particles-js {
@@ -742,7 +740,7 @@ user-select: none;
     font-size: 30px;
     height: 60px;
     line-height: 59px;
-    text-align: center;
+    
     -webkit-transition: all 0.4s ease-in-out 0s;
             transition: all 0.4s ease-in-out 0s;
     width: 60px;
@@ -788,7 +786,7 @@ user-select: none;
   font-size: 30px;
   height: 90px;
   line-height: 87px;
-  text-align: center;
+
   -webkit-transition: all 0.2s ease-in-out 0s;
           transition: all 0.2s ease-in-out 0s;
   width: 90px;
@@ -1060,7 +1058,7 @@ button.sl-prev .fa, button.sl-next .fa {
 }
 
 .our-awards-section strong span {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     color: #fff;
     display: block;
     font-weight: 500;
@@ -1105,7 +1103,7 @@ span.count-description {
             transition: all 0.4s ease-in-out 0s;
 }
 .single-pricing-table .price h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     font-size: 23px;
     font-weight: 400;
     -webkit-transition: all 0.4s ease-in-out 0s;
@@ -1212,7 +1210,7 @@ box-shadow: inset 0px 2px 25px -8px rgba(0,0,0,0.76);
     font-style: italic;
     color: #808080;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
 }
 .blog-post-details p {
     color: #808080;
@@ -1319,7 +1317,7 @@ box-shadow: inset 0px 2px 25px -8px rgba(0,0,0,0.76);
     font-size: 16px;
     border: none;
     padding: 20px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RavensbourneSans-Regular';
     letter-spacing: 1px;
     letter-spacing: 0.1rem;
 }
@@ -1389,7 +1387,7 @@ line-height: 10vh;
 th,td
     {
         margin: 0;
-        text-align: center;
+        
         border-collapse: collapse;
         outline: 1px solid #e3e3e3;
     }
